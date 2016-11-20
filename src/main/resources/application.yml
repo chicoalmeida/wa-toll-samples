@@ -1,0 +1,15 @@
+logging:
+  level:
+    org:
+      springframework:
+        cloud:
+          task: DEBUG
+spring:
+  application:
+    name: Toll Processor
+  datasource:
+    url: jdbc:mysql://localhost:3306/tasklogs
+    username: root
+    password: pass
+    driver-class-name: com.mysql.jdbc.Driver
+
