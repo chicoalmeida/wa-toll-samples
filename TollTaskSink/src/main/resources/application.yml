@@ -1,0 +1,15 @@
+spring:
+  rabbitmq:
+    broker-url: tcp://127.0.0.1:5672
+    username: guest
+    password: guest
+  cloud:
+    stream:
+      bindings:
+        input:
+          destination: tasktopic
+logging:
+  level:
+    org.springframework.cloud:
+      task: DEBUG
+      stream: DEBUG

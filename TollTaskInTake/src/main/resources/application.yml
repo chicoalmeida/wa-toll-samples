@@ -1,0 +1,12 @@
+spring:
+  rabbitmq:
+    broker-url: tcp://127.0.0.1:5672
+    username: guest
+    password: guest
+  cloud:
+    stream:
+      bindings:
+        output:
+          destination: tasktopic
+server:
+  port: 8082
