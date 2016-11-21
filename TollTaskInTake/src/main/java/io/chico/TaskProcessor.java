@@ -26,7 +26,7 @@ public class TaskProcessor {
 
     public void publishRequest(String payload) {
 
-        String url = "maven://io.chico:springcloudtask:jar:0.0.1-SNAPSHOT";
+        String url = "maven://io.chico:toll-task-sample:jar:0.0.1-SNAPSHOT";
 
         List<String> input = new ArrayList<>(asList(payload.split(",")));
 
